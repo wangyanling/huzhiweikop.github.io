@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+$(document).ready(function(){
+	$("body").load('http://localhost/Ajax.html',function(a,b,c){
+		if(b=="error"){
+			alert("error");
+			alert(a);
+			alert(b);
+			alert(c);
+		}
+	});
+});
