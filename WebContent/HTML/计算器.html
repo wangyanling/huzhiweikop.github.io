@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>计算器</title>
+<link type="text/css" href="../CSS/计算器.css" rel="stylesheet">
+</head>
+<body>
+	<div>
+		<h1>计算器</h1>
+		<p>请输入第一个数</p>
+		<input type="number" id="first" name="first">
+		<p>请输入运算符</p>
+		<form id="operate">
+			<input type="radio" class="radio" name="Operator" value="1">+
+			<input type="radio" class="radio" name="Operator" value="2">-
+			<input type="radio" class="radio" name="Operator" value="3">*
+			<input type="radio" class="radio" name="Operator" value="4">/
+		</form>
+		<p>请输入第二个数</p>
+		<input type="number" id="last" name="last"><br>
+		<button id="button1">提交</button>
+		<br>
+		<p>结果</p>
+		<p id="result">&nbsp;</p>
+	</div>
+	<script src="../JS/计算器.js"></script>
+
+
+</body>
+</html>
