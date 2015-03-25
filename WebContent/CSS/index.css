@@ -1,13 +1,29 @@
 @CHARSET "UTF-8";
 body {
-	padding-top: 55px;
+    padding-top: 55px;
+    background-image: url("../IMG/1.jpg");
+    background-attachment: fixed;
 }
-#left{
+
+#left0{
+    position: fixed;
+
 
 }
-#right{
-background-color:green;
+
+#right {
+    text-align: center;
+
+
 }
-#navbar{
-	margin-right:0;
+
+#foot {
+
+}
+
+#navbar {
+    margin-right: 0;
+}
+html{
+    overflow-y: scroll;
 }
