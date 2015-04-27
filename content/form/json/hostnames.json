@@ -1,0 +1,39 @@
+{
+	"Configure hostnames:":{
+		"input1":{
+			"type":"text",
+			"text":"ESxi hostname prefix"
+			},
+		"input2":{
+			"type":"select",
+			"text":"Separator",
+			"option":{
+				"none":"none",
+				"-":"-"
+					}
+				},
+		"input3":{
+			"type":"select",
+			"text":"Iterator",
+			"option":{
+				"Alpha":"Alpha",
+				"Num X":"Num X",
+				"Num 0X":"Num 0X"
+					}
+				},
+		"input4":{
+			"type":"text",
+			"text":"Top-level domain（TLD）"
+		}
+	},
+	"Configure vCenter Server hostname:":{
+		"input5":{
+			"type":"text",
+			"text":"Vcenter Server Hostname"
+			},
+		"input6":{
+			"type":"text",
+			"text":"Vcenter Server top-level-domain"
+			}
+	}
+}
