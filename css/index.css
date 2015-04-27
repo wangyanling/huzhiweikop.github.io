@@ -1,23 +1,22 @@
 @CHARSET "UTF-8";
 body {
-    padding-top: 55px;
+    padding-top: 50px;
     background-image: url("../img/1.jpg");
     background-attachment: fixed;
 }
 
-#left0{
+.btn-group-vertical{
     position: fixed;
-
-
 }
 
 #right {
     text-align: center;
-
-
 }
 
-#foot {
+#info {
+	 text-align: center;
+	 background-color: red;
+	 color: white;
 
 }
 
