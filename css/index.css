@@ -1,24 +1,39 @@
 @CHARSET "UTF-8";
 body {
-    padding-top: 50px;
+	padding-top: 50px;
 }
 #right {
-    text-align: center;
-}
-#info {
-	 color: white;
-	 min-height: 500px;
-	 font-size: 1.8em;
-}
-#navbar {
-    margin-right: 0;
-}
-html{
-    overflow-y: scroll;
-}
-.container{
 	text-align: center;
 }
-.container-fluid{
-		 background-image: url(../img/5.jpg);
+#info {
+	color: white;
+	min-height: 600px;
+	font-size: 1.8em;
+}
+#navbar {
+	margin-right: 0;
+}
+html {
+	overflow-y: scroll;
+}
+.container {
+	text-align: center;
+}
+.container-fluid {
+	background-image: url(../img/5.jpg);
+}
+#scrollUp {
+	bottom: 100px;
+	background-color: #777;
+	color: #eee;
+	font-size: 40px;
+	line-height: 1;
+	text-align: center;
+	text-decoration: none;
+	right: 20px;
+	overflow: hidden;
+	width: 46px;
+	height: 46px;
+	border: none;
+	opacity: .8;
 }
